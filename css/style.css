@@ -13,8 +13,13 @@ html{
 .container{
 	width: 1100px;
 }
-p, h1, h2, h3, h4, h5, h6{
+
+body{
 	font-family: 'Poppins', sans-serif;
+	color: #ffffff;
+}
+.fix{
+	clear: both;
 }
 /*Import Font*/
 @import url('https://fonts.googleapis.com/css?family=Poppins');
@@ -46,7 +51,7 @@ p, h1, h2, h3, h4, h5, h6{
 	display: none;
 }
 .slider img{
-	height: 90vh;
+	height: 90.6vh;
 }
 .number-text{
 	position: absolute;
@@ -80,7 +85,7 @@ p, h1, h2, h3, h4, h5, h6{
 	left: 10%;
 }
 .connect-social{
-	margin: 0 28%;
+	margin: 0 20%;
 }
 .connect-social a{
 	font-size: 28px;
@@ -95,6 +100,9 @@ p, h1, h2, h3, h4, h5, h6{
 	color: #ffffffff !important;
 	font-size: 26px;
 }
+.home-text{
+    position: relative;
+    right: 50px;}
 .home-text h1{
 	font-weight: 700;
 	text-align: center;
@@ -106,7 +114,7 @@ p, h1, h2, h3, h4, h5, h6{
 	font-size: 17px;
 }
 .home-btn{
-	margin:  0 28%;
+	margin:  0 21%;
 }
 .home-btn button{
 	border: none;
@@ -129,4 +137,118 @@ p, h1, h2, h3, h4, h5, h6{
 .hire-btn:hover{
 	background: #0476F1;
 	color: #ffffff !important;
+}
+
+
+
+/*Aout Start*/
+#about{
+	background: #000;
+	height: 100%;
+}
+.about-content{
+	margin-top: 80px;
+}
+.about-content h3{
+    border: 3px solid;
+    display: inline;
+    padding: 11px 21px;
+    margin-bottom: 20px;
+}
+.about-content p{
+	margin: 35px 0;
+	text-align: justify;
+}
+.about-content div{
+    position: relative;
+    top: 13px;
+    width: 9px;
+    height: 13px;
+    border-radius: 0 0 273% 0;
+    left: 20px;
+	background: #ffffff;
+}
+.name, .email, .phone, .twitter{
+	float: left;
+}
+.name-title, .email-title, .phone-title, .twitter-title{
+	margin-bottom: 0;
+}
+
+.name{
+	margin-right: 34%;
+}
+.phone{
+	margin-right: 27%;
+}
+.twitter{
+	margin-left: 6px;
+}
+.side-about hr{
+	background: #727679 !important;
+}
+
+.about-btn{
+	margin-top: 50px;
+}
+.send-message{
+	border: 1px solid #ffffff;
+	background: #000 !important;
+	border-radius: 50px;
+	padding: 8px 20px;
+	margin-right: 10px;
+}
+.download-cv{
+	border-radius: 50px;
+	padding: 8px 20px;
+}
+
+
+#about img{
+	margin: 50px 0;
+}
+.skill-analysis{
+	width: 390px;
+	height: 410px;
+	background: black;
+	border: 1px solid #ffffff;
+	position: absolute;
+	bottom: 37%;
+	left: 25%;
+	opacity: .7;
+}
+.skill-analysis-content hr{
+	margin-top: 0;
+	margin-right: 140px;
+	padding: 1px;
+}
+.skill-analysis-content p{
+	margin-bottom: 5px;
+}
+.skill-analysis-content{
+	position: relative;
+	bottom: 35%;
+	left: 25%;
+	padding: 15px 20px;
+}
+.html-skill{
+	
+}
+.skill-calculate{
+	border: 1px solid;
+    display: inline;
+    padding: 3px 5px;
+    font-size: 10px;
+    position: relative;
+    left: 62%;
+    bottom: 54px;
+}
+.skill-calculate-shap{
+	width: 2px;
+	height: 4px;
+    border-radius: 0 0 100%;
+    margin-left: 4px;
+    position: relative;
+    left: 62%;
+    bottom: 54px;
 }
