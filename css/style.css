@@ -197,10 +197,27 @@ body{
 	border-radius: 50px;
 	padding: 8px 20px;
 	margin-right: 10px;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .9s ease;
+}
+.send-message:hover{
+	background: #ffffff !important;
+	color: #000;
 }
 .download-cv{
 	border-radius: 50px;
 	padding: 8px 20px;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .9s ease;
+}
+.download-cv:hover{
+	 background: #0c498a;
 }
 
 
