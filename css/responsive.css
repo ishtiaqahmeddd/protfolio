@@ -47,7 +47,7 @@ px      68    160    252    344    436    528    620    712    */
 .side-about{
 	min-width: 100%;
 	position: absolute;
-	top: 0;
+	top: 3%;
 	left: 0;
 	padding: 20px 50px;
 }
@@ -55,7 +55,7 @@ px      68    160    252    344    436    528    620    712    */
 	margin-right: 50%;
 }
 .phone{
-	margin-right: 44.5%;
+	margin-right: 47%;
 }
 .name, .email, .phone, .twitter{
 
@@ -71,9 +71,11 @@ px      68    160    252    344    436    528    620    712    */
 	position: relative;
 	bottom: 30%;
 	left: 86%;
+	width: 116%;
+	height: 46%;
 }
 .skill-analysis-content{
-    bottom: 55%;
+    bottom: 74%;
     left: 87%;
     width: 158%;
 }
@@ -108,10 +110,72 @@ px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
 
-	
+.container{
+	min-width: 100%;	
+}
+.navbar-nav{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #343A40;
+    z-index: 222222222222222;
+}
+.toggle-nav{
+	display: block;
+	background: none;
+	border: none;
+}
+.toggle-nav i{
+	font-size: 40px;
+
+}
+/*Home*/
+.home-content{
+	min-width: 100%;
+}	
 
 
 
+/*About*/
+.side-about{
+	min-width: 100%;
+	position: absolute;
+	top: 10%;
+	left: 0;
+	z-index: 1;
+
+}
+.name{
+	margin-right: 0%;
+}
+.phone{
+	margin-right:0;
+}
+.name, .email, .phone, .twitter{
+	width: 100%;
+	margin: 0 5%;
+}
+
+.skill-wrap{
+	margin-top: 136vh;
+	max-height: 190vh;
+}
+.skill-img{
+
+}
+.skill-analysis{
+	position: relative;
+	bottom: 48%;
+	left: 61%;
+	width: 115%;
+	height: 45%;
+}
+.skill-analysis-content{
+    bottom: 93%;
+    left: 62%;
+    width: 158%;
+}
 
 
 
@@ -135,10 +199,26 @@ px      68    160    252    */
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
+
+/*Home*/
+.home-btn {
+    margin: 0 9%;
+}
 
 
-	
+
+
+
+
+
+/*About*/
+.skill-analysis, .skill-analysis-content, .skill-img{
+display: none;
+}
+.about{
+	height: 180vh;
+}
 	
 	
 	
@@ -166,4 +246,20 @@ px      68    160    252    344    436    */
 	
 	
 	
+}
+@media only screen and (max-width: 575px) {
+.skill-analysis{
+    bottom: 42%;
+    left: 1%;
+    width: 42%;
+}
+.skill-analysis-content{
+	bottom: 81%;
+    left: 1%;
+    width: 54%;
+}
+.skill-img{
+	width: 40%;
+}
+
 }
