@@ -1,0 +1,169 @@
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.container{
+} 
+.navbar{
+	margin-left: -50px;
+}
+.connect-social{
+	margin: 0;
+}
+.home-text h1{
+	font-size: 23px;
+	text-align: left;
+}
+.home-text p{
+	font-size: 15px;
+	text-align: left;
+}
+.home-btn{
+	margin: 0;
+}
+
+
+/*About*/
+
+
+.side-about{
+	min-width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px 50px;
+}
+.name{
+	margin-right: 50%;
+}
+.phone{
+	margin-right: 44.5%;
+}
+.name, .email, .phone, .twitter{
+
+}
+
+.skill-wrap{
+	margin-top: 100vh;
+}
+.skill-img{
+
+}
+.skill-analysis{
+	position: relative;
+	bottom: 30%;
+	left: 86%;
+}
+.skill-analysis-content{
+    bottom: 55%;
+    left: 87%;
+    width: 158%;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+	
+
+
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+	
+	
+	
+	
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+}
