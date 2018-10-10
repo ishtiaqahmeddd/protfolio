@@ -224,13 +224,16 @@ body{
 #about img{
 	margin: 50px 0;
 }
+.skill-img{
+	width: 90%;
+}
 .skill-analysis{
-	width: 390px;
-	height: 410px;
+	width: 70%;
+	height: 37%;
 	background: black;
 	border: 1px solid #ffffff;
 	position: absolute;
-	bottom: 37%;
+	bottom: 35%;
 	left: 25%;
 	opacity: .7;
 }
@@ -244,7 +247,7 @@ body{
 }
 .skill-analysis-content{
 	position: relative;
-	bottom: 35%;
+	bottom: 32%;
 	left: 25%;
 	padding: 15px 20px;
 }
@@ -268,4 +271,9 @@ body{
     position: relative;
     left: 62%;
     bottom: 54px;
+}
+
+
+.toggle-nav{
+ display: none;
 }
