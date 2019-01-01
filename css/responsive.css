@@ -1,0 +1,327 @@
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.container{
+	width: 95%;
+} 
+.navbar{
+	margin-left: -50px;
+}
+.connect-social{
+	margin: 0;
+}
+.home-text h1{
+	font-size: 23px;
+	text-align: left;
+}
+.home-text p{
+	font-size: 15px;
+	text-align: left;
+}
+.home-btn{
+	margin: 0;
+}
+
+
+
+
+
+
+.navbar-nav{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #343A40;
+    z-index: 222222222222222;
+}
+.nav-item{
+	padding: 0 20px;
+}
+.toggle-nav{
+	display: block;
+	background: none;
+	border: none;
+}
+.toggle-nav i{
+	font-size: 40px;
+
+}
+/*Home*/
+.home-content{
+	min-width: 100%;
+}
+
+/*About*/
+
+
+.side-about{
+	min-width: 100%;
+	position: absolute;
+	top: 8%;
+	left: 0;
+	padding: 20px 50px;
+}
+.name{
+	margin-right: 50%;
+}
+.phone{
+	margin-right: 47%;
+}
+.name, .email, .phone, .twitter{
+
+}
+
+.skill-wrap{
+	margin-top: 100vh;
+}
+.skill-img{
+
+}
+.skill-analysis{
+	position: relative;
+	bottom: 30%;
+	left: 86%;
+	width: 116%;
+	height: 46%;
+}
+.skill-analysis-content{
+    bottom: 74%;
+    left: 87%;
+    width: 158%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Services Page*/
+.service-content i{
+		margin: 10px 47%;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+.container{
+	min-width: 100%;	
+}
+.navbar-nav{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #343A40;
+    z-index: 222222222222222;
+}
+.nav-item{
+	padding: 0 20px;
+}
+.toggle-nav{
+	display: block;
+	background: none;
+	border: none;
+}
+.toggle-nav i{
+	font-size: 40px;
+
+}
+/*Home*/
+.home-content{
+	min-width: 100%;
+}	
+
+
+
+/*About*/
+.side-about{
+	min-width: 100%;
+	position: absolute;
+	top: 10%;
+	left: 0;
+	z-index: 1;
+
+}
+.name{
+	margin-right: 0%;
+}
+.phone{
+	margin-right:0;
+}
+.name, .email, .phone, .twitter{
+	width: 100%;
+	margin: 0 5%;
+}
+
+.skill-wrap{
+	margin-top: 136vh;
+	max-height: 190vh;
+}
+.skill-img{
+
+}
+.skill-analysis{
+	position: relative;
+	bottom: 48%;
+	left: 61%;
+	width: 115%;
+	height: 45%;
+}
+.skill-analysis-content{
+    bottom: 93%;
+    left: 62%;
+    width: 158%;
+}
+
+
+
+
+
+
+
+
+/*Services Page*/
+.service-content i{
+		margin: 10px 47%;
+}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (max-width: 480px) {
+
+/*Home*/
+.home-btn {
+    margin: 0 9%;
+}
+
+
+
+
+
+
+
+/*About*/
+.skill-analysis, .skill-analysis-content, .skill-img{
+display: none;
+}
+.about{
+	height: 180vh;
+}
+	
+	
+	
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+}
+@media only screen and (max-width: 575px) {
+.skill-analysis{
+    bottom: 42%;
+    left: 1%;
+    width: 42%;
+}
+.skill-analysis-content{
+	bottom: 81%;
+    left: 1%;
+    width: 54%;
+}
+.skill-img{
+	width: 40%;
+}
+
+}
