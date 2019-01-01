@@ -11,7 +11,6 @@ html{
 	padding: 0;
 }
 .container{
-	width: 1100px;
 }
 
 body{
@@ -21,6 +20,17 @@ body{
 .fix{
 	clear: both;
 }
+.page-header{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 10px;
+	font-weight: 600;
+
+}
+
+
+
 /*Import Font*/
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
@@ -272,8 +282,264 @@ body{
     left: 62%;
     bottom: 54px;
 }
-
-
 .toggle-nav{
  display: none;
+}
+
+
+
+
+
+
+/*Services Page*/
+.service-nav{
+	position: relative;
+	z-index: 2222222222;
+}
+#services{
+	background: #F6F6F6;
+	height: 100%;
+	padding-bottom: 50px;
+	position: relative;
+	z-index: 22222222;
+}
+#services hr{
+	margin: 10px 47%;
+}
+.service-hr1{
+	margin-top: 0px !important;
+	margin-bottom: 5px !important;
+}
+.service-hr2{
+	margin: 0 45% 5px 45% !important;
+}
+.service-hr3{
+	margin-top: 0px !important;
+	margin-bottom: 10px !important;
+}
+.service-box{
+	background: black;
+	height: 45vh;
+	margin-bottom: 20px;
+}
+.link:hover{
+	text-decoration: none;
+	color: #cdcdcd !important;
+}
+.service-content{
+	padding: 25px 20px;
+}
+.service-content i{
+	padding: 8px;
+	margin: 10px 44%;
+	font-size: 15px;
+	border-radius: 50%;
+
+}
+.service-content h4{
+
+}
+.service-content hr{
+	padding: 0 20px;
+	margin: 12px 40% !important;
+}
+.service-content p{
+	font-size: 13px;
+}
+
+
+
+.consultation-background{
+	height: 244px;
+	background: #000;
+	position: relative;
+	opacity: 0.8;
+	z-index: 2222222;
+}
+#consultation img{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.consultation-content{
+	z-index: 222222222222222222222222222222;
+	position: absolute;
+	top: 140vh;
+	left: 10vw;
+}
+.formality{
+	position: relative;
+	z-index: 222222;
+	background: #F6F6F6;
+	height: 10vh;
+}
+.consultation-content h1{
+	font-size: 20px;
+}
+.consultation-content p{
+	font-size: 13px;
+}
+#consultation input{
+    padding: 7px 30px;
+    border-radius: 50px
+}
+#consultation button{
+	border-radius: 50px;
+	padding: 9px 30px;
+	position: relative;
+	right: 13%;
+}
+
+
+
+
+
+
+
+
+
+/*Protfolio Page*/
+#protfolio{
+	background: #F6F6F6;
+	height: 100%;
+	padding-bottom: 50px;
+	position: relative;
+	z-index: 22222222;
+}
+#protfolio hr{
+	margin: 10px 47%;
+}
+.protfolio-header{
+	margin-bottom: 50px;
+}
+.protfolio-nav{
+	margin-bottom: 15px;
+}
+.nav-link-hover{
+	color: #646464;
+}
+.nav-link-hover:hover{
+	color: #007bff !important;
+	border-bottom: 1px solid #007bff;
+}
+.nav-link-hover.active{
+	color: #007bff !important;
+	border-bottom: 1px solid #007bff;
+}
+
+
+
+
+
+
+/*Protfolio Section*/
+#protfolio{
+
+}
+.main-protfolio-content{
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+#protfolio img{
+	max-width: 100%;
+}
+#protfolio p{
+	margin-top: 1rem;
+}
+.protfolio-content-btn{
+	width: 100%;
+	border-radius: 0;
+	font-size: 20px;
+	height: 50px;
+}
+
+
+
+
+/*Contact section*/
+#contact h1{
+    margin-bottom: 50px;
+}
+.contact-box{
+	max-width: 100%;
+
+}
+.box-header{
+	padding: 20px 0 15px 0;
+	margin: 0;
+}
+.box-text{
+	padding: 0 0 20px 0;
+}
+#contact .bg-dark{
+	background-color: #000 !important;
+}
+#contact .row{
+	margin-bottom: 25px;
+}
+#contact input{
+	width: 48.8%;
+	margin-bottom: 10px;
+	line-height: 50px;
+	background-color: #f1eded;
+	border: none;
+	padding-left: 10px;
+	font-size: 20px;
+
+}
+#contact input:focus{
+	outline: none;
+}
+#contact .input-name, .input-phone{
+	margin-right: 2%;
+}
+#massage{
+	width: 100%;
+	border: none;
+	background-color: #f1eded;
+	padding: 10px;
+	font-size: 20px;
+}
+.send-btn{
+	border-radius: 0;
+	width: 150px;
+	position: relative;
+	left: 43%;
+	margin: 10px 0 10px 0;
+}
+#massage:focus{
+	outline: none;
+}
+#footer img{
+	width: 100%;
+	height: 200px;
+}
+.footer-box{
+	width: 100%;
+	height: 200px;
+	background-color: #000;
+	opacity: .9;
+	z-index: 1;
+}
+.footer-content{
+	position: absolute;
+	top: 125%;
+    left: 35%;
+}
+#footer .connect-social{
+	margin: 0 0 14px 77px;
+
+
+}
+#footer a{
+	color: #ffffff !important;
+
+}
+#footer p{
+	color: #ffffff;
+	font-size: 20px;
+}
+.protfolio-footer{
+	top: 105%;
 }
